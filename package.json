@@ -20,8 +20,9 @@
     "postbuild:umd": "uglifyjs -c --screw-ie8 --comments -o dist/bundles/ng-annotations.umd.min.js dist/bundles/ng-annotations.umd.js",
     "test": "karma start --single-run",
     "test:watch": "karma start",
+    "test:report": "cd coverage && codecov",
     "lint": "tslint src/**/*.ts",
-    "ci": "npm-run-all -p lint test",
+    "ci": "npm run test",
     "presemantic-release": "node scripts/release.js",
     "semantic-release": "cd dist && semantic-release pre && npm publish && semantic-release post"
   },
@@ -39,6 +40,7 @@
     "@types/jasmine": "^2.5.47",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.1.2",
+    "codecov": "^2.1.0",
     "codelyzer": "^2.1.1",
     "commitizen": "^2.9.6",
     "core-js": "^2.4.1",
