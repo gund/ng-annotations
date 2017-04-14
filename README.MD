@@ -1,5 +1,7 @@
 # ng-annotations
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gund/ng-annotations.svg)](https://greenkeeper.io/)
+
 > Extract metadata of Angular components, directives, service etc.
 
 [![Travis CI](https://img.shields.io/travis/gund/ng-annotations/master.svg?maxAge=2592000)](https://travis-ci.org/gund/ng-annotations)
