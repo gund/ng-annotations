@@ -21,7 +21,9 @@
     "test": "karma start --single-run",
     "test:watch": "karma start",
     "lint": "tslint src/**/*.ts",
-    "ci": "npm-run-all -p lint test"
+    "ci": "npm-run-all -p lint test",
+    "presemantic-release": "node scripts/release.js",
+    "semantic-release": "cd dist && semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Alex Malkevich",
   "license": "MIT",
@@ -61,6 +63,7 @@
     "rollup-globals-regex": "^0.0.3",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rxjs": "^5.3.0",
+    "semantic-release": "^6.3.2",
     "source-map": "^0.5.6",
     "source-map-loader": "^0.2.1",
     "sourcemap-istanbul-instrumenter-loader": "^0.2.0",
