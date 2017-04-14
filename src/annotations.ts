@@ -11,7 +11,7 @@ export class Annotations {
     const annotations = Reflect.getOwnMetadata('annotations', type);
 
     if (!Array.isArray(annotations)) {
-      throw Error(`AnnotationsService: Annotations not available for type '${type.name}'`);
+      throw Error(`Annotations: Annotations not available for type '${type.name}'`);
     }
 
     return annotations[0];
