@@ -12,6 +12,7 @@
   "main": "dist/bundles/ng-annotations.umd.js",
   "module": "dist/index.js",
   "scripts": {
+    "commit": "git-cz",
     "prebuild": "rimraf compiled dist",
     "build": "npm-run-all -s build:*",
     "build:main": "ngc -p tsconfig.json",
@@ -72,5 +73,13 @@
     "webpack-dev-server": "^2.4.2",
     "webpack-sources": "^0.2.3",
     "zone.js": "^0.8.5"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "echo \"Verifying commit...\" && npm run lint"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
