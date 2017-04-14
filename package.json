@@ -1,5 +1,5 @@
 {
-  "name": "ng-annotations",
+  "name": "@gund/ng-annotations",
   "version": "0.0.1",
   "description": "Extract metadata of Angular components, directives, service etc.",
   "keywords": [
@@ -13,6 +13,7 @@
   "module": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
+    "prepublish": "npm run build",
     "prebuild": "rimraf compiled dist",
     "build": "npm-run-all -s build:*",
     "build:main": "ngc -p tsconfig.json",

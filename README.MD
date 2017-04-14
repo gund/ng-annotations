@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ npm install --save ng-annotations
+$ npm install --save @gund/ng-annotations
 ```
 
 ## Usage
