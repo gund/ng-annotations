@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@angular/compiler": "^4.0.2",
-    "@angular/compiler-cli": "^4.0.2",
+    "@angular/compiler-cli": "^5.0.0",
     "@angular/core": "^4.0.2",
     "@types/core-js": "^0.9.41",
     "@types/jasmine": "^2.5.47",
