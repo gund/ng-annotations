@@ -42,7 +42,7 @@
   "devDependencies": {
     "@angular/compiler": "^4.0.2",
     "@angular/compiler-cli": "^4.0.2",
-    "@angular/core": "^4.0.2",
+    "@angular/core": "^5.0.4",
     "@types/core-js": "^0.9.41",
     "@types/jasmine": "^2.5.47",
     "angular2-template-loader": "^0.6.2",
