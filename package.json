@@ -40,7 +40,7 @@
     "@angular/core": "^4.0.2"
   },
   "devDependencies": {
-    "@angular/compiler": "^4.0.2",
+    "@angular/compiler": "^5.1.0",
     "@angular/compiler-cli": "^4.0.2",
     "@angular/core": "^4.0.2",
     "@types/core-js": "^0.9.41",
