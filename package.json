@@ -70,7 +70,7 @@
     "karma-webpack": "^2.0.3",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",
-    "rollup": "^0.50.0",
+    "rollup": "^0.55.5",
     "rollup-globals-regex": "^0.0.3",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rxjs": "^5.4.0",
