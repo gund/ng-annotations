@@ -43,7 +43,7 @@
     "@angular/compiler": "^4.0.2",
     "@angular/compiler-cli": "^4.0.2",
     "@angular/core": "^4.0.2",
-    "@types/core-js": "^0.9.41",
+    "@types/core-js": "^2.5.1",
     "@types/jasmine": "^2.5.47",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.1.2",
